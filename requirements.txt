@@ -18,6 +18,6 @@ neuro-mf==0.0.5
 pandas
 PyYAML
 numpy
-scikit-learn
+scikit-learn==1.2.2
 apache-airflow
 -e .

@@ -161,3 +161,5 @@ cython_debug/
 #.idea/
 
 data_dump.py
+artifacts
+saved_models

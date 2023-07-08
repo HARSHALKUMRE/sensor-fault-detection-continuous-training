@@ -1,7 +1,7 @@
 import pandas as pd
 from src.logger import logging
 from src.exception import SensorException
-from src.config import mongo_client
+from src.configuration import mongo_client
 import os,sys
 import yaml
 import numpy as np

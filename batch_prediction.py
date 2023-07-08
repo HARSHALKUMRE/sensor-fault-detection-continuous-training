@@ -1,7 +1,8 @@
 from src.pipeline.training_pipeline import start_training_pipeline
 from src.pipeline.batch_prediction import start_batch_prediction
+import os
 
-file_path=r"G:\100-days-of-dl\Krish_Naik\FSDS_Ineuron_Course\projects\sensor-fault-detection-continuous-training\notebooks\aps_failure_training_set1.csv"
+file_path=os.path.join('aps_failure_training_set1.csv')
 print(__name__)
 if __name__=="__main__":
      try:

@@ -28,7 +28,7 @@ with DAG(
         os.system(f"aws s3 sync /app/artifact s3://{bucket_name}/artifacts")
         os.system(f"aws s3 sync /app/saved_models s3://{bucket_name}/saved_models")
 
-    training_pipeline  = PythonOperator(
+    training_pipeline = PythonOperator(
             task_id="training_pipeline",
             python_callable=training
 

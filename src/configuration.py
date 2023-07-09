@@ -9,6 +9,7 @@ import certifi
 
 ca = certifi.where()
 
+
 @dataclass
 class EnvironmentVariable:
     mongo_db_url = os.getenv('MONGODB_URL')

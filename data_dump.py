@@ -2,10 +2,10 @@ import pymongo
 import pandas as pd
 import json
 # Provide the mongodb localhost url to connect python to mongodb.
-client = pymongo.MongoClient("mongodb+srv://harshal:harshal@cluster0.ppzqzhg.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://hktech:hktech@cluster0.pvyawg9.mongodb.net/?retryWrites=true&w=majority")
 
-DATA_FILE_PATH=r"G:\100-days-of-dl\Krish_Naik\FSDS_Ineuron_Course\projects\sensor-fault-detection-continuous-training\notebooks\aps_failure_training_set1.csv"
-DATABASE_NAME="iNeuron"
+DATA_FILE_PATH="G:\\100-days-of-dl\\Krish_Naik\\FSDS_Ineuron_Course\\projects\\sensor-fault-detection-continuous-training\\aps_failure_training_set1.csv"
+DATABASE_NAME="Harshal"
 COLLECTION_NAME="sensor"
 
 
